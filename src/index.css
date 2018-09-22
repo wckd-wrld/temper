@@ -1,5 +1,29 @@
+
 body {
   margin: 0;
-  padding: 0;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2.5%;
   font-family: sans-serif;
 }
+.guide {
+    position: fixed;
+    font-size: 18pt;
+}
+
+#top-left {
+    left: 10%;
+}
+#top-right {
+    right: 10%;
+}
+#bottom-left {
+    bottom: 10%;
+    left: 10%;
+}
+
+#bottom-right {
+    bottom: 10%;
+    right: 10%;
+}
+

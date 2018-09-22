@@ -1,8 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 nav {
-    float: right;
-    margin-top: 5%;
-    margin-right: 10%;
+    writing-mode: vertical-rl;
+    margin-top: 25%;
+    text-orientation: mixed;
+    left: 10%;
+    text-decoration: none;
+    display: block;
+    position: fixed;
     text-decoration: none;
 }
-
+.nav-item {
+    margin-bottom: 30pt;
+    text-decoration: none;
+    color: black;
+    transition:0.4s ease-in-out;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12pt;
+    opacity: 0.5;
+}
+.nav-item:hover {
+    opacity: 1;
+}
+.nav-item:focus, .navitem:active {
+    border: none;
+    outline: 0;
+    -moz-outline-style: none;
+    color: #5e6af9;
+    opacity: 1;
+}
 

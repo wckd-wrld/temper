@@ -16,11 +16,17 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 ReactDOM.render(
     <Router>
         <div>
+            <span class='guide' id="top-left">+</span>
+            <span class='guide' id="top-right">+</span>
             <NavBar/>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/archive" component={Archive} />
+            <div class="content">
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/archive" component={Archive} />
             </div>
+            <span class='guide' id="bottom-left">+</span>
+            <span class='guide' id="bottom-right">+</span>
+        </div>
     </Router>,
     document.getElementById('root')
 );

@@ -10,9 +10,9 @@ class NavBar extends Component {
     render() {
         return(
             <nav>
-                <Link to="/"> Home </Link>
-                <Link to="/about"> About </Link>
-                <Link to="/archive"> Archive </Link>
+                <Link class="nav-item" to="/">now</Link>
+                <Link class="nav-item" to="/about">about</Link>
+                <Link class="nav-item" to="/archive">archive</Link>
         </nav>
         );
     }
