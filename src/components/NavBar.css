@@ -3,8 +3,8 @@
 
 nav {
     writing-mode: vertical-rl;
-    margin-top: 25%;
     text-orientation: mixed;
+    bottom: 15%;
     left: 10%;
     text-decoration: none;
     display: block;

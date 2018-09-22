@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
 import test from '../img/test.jpg';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class Home extends Component {
     constructor(props) {
@@ -9,7 +8,8 @@ class Home extends Component {
     }
 
     render() {
-        return(<img src={test}/>
+        return(
+            <img src={test}/>
         );
     }
 }
